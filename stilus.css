@@ -22,12 +22,26 @@ header{
     background-color: orange;
             grid-area: h;
 }
+nav li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul{
+    padding-left: 0;
+}
  
 nav{
     background-color: brown;
         grid-area: n;
 }
- 
+nav li:hover{
+    background-color: darkorange;
+}
+nav li:hover a{
+    color: white;
+}
 article{
     background-color: greenyellow;
     grid-area: a;
