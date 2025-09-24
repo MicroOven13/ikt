@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    max-width: 900ox;
+    margin: auto;
+}
+ 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "h h h"
+        "n n n"
+        "a a a"
+        "f f f"
+    ;
+}
+ 
+header{
+    background-color: bisque;
+            grid-area: h;
+}
+ 
+nav{
+    background-color: brown;
+        grid-area: n;
+}
+ 
+article{
+    background-color: blueviolet;
+    grid-area: a;
+}
+ 
+ 
+footer{
+background-color: blue;
+grid-area: f;
+}
