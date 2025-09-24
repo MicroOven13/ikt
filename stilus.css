@@ -38,3 +38,18 @@ footer{
 background-color: blue;
 grid-area: f;
 }
+@media screen and (max-width: 600px){
+    body {
+        width: 100%;
+    }
+    main{
+        grid-template-areas:
+            "h h h"
+            "n n n"
+            "a a a"
+            "f f f"
+        ;
+        grid-template-columns: 1fr;
+    }
+    
+}
