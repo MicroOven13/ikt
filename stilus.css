@@ -19,7 +19,7 @@ main{
 }
  
 header{
-    background-color: bisque;
+    background-color: orange;
             grid-area: h;
 }
  
@@ -29,7 +29,7 @@ nav{
 }
  
 article{
-    background-color: blueviolet;
+    background-color: greenyellow;
     grid-area: a;
 }
  
